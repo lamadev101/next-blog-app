@@ -1,0 +1,93 @@
+export type Blog = {
+  id: number,
+  title: string,
+  desc: string,
+  imgUrl: string,
+  publishedDate: string,
+  category: string,
+}
+
+type Blogs = Blog[]
+
+export const featuredBlogs: Blogs = [
+  {
+    id: 1,
+    title: "Introduction to Artificial Intelligence",
+    desc: "Exploring the basics of artificial intelligence and its applications.",
+    imgUrl: "https://images.unsplash.com/photo-1691893310317-c2c0769f7b3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "July 15, 2023",
+    category: "Technology",
+  },
+  {
+    id: 2,
+    title: "Hidden Gems: Exploring Offbeat Destinations",
+    desc: "Uncover lesser-known travel destinations that offer unique experiences.",
+    imgUrl: "https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+    publishedDate: "August 3, 2023",
+    category: "Travel",
+  },
+  {
+    id: 3,
+    title: "Mindfulness Meditation: Benefits for Mental Health",
+    desc: "Learn about the positive effects of mindfulness meditation on mental well-being.",
+    imgUrl: "https://images.unsplash.com/photo-1690908216550-3eaac0f31818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "June 22, 2023",
+    category: "Health",
+  },
+  {
+    id: 4,
+    title: "Exploring Global Cuisines: A Culinary Adventure",
+    desc: "Dive into the world of international cuisines and their cultural significance.",
+    imgUrl: "https://images.unsplash.com/photo-1682687982360-3fbab65f9d50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "September 9, 2023",
+    category: "Food",
+  },
+  {
+    id: 5,
+    title: "Minimalism: Living with Less for a Fuller Life",
+    desc: "Embracing minimalism as a lifestyle choice and its impact on well-being.",
+    imgUrl: "https://images.unsplash.com/photo-1691495258003-aa698004a721?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "May 2, 2023",
+    category: "Lifestyle",
+  },
+  {
+    id: 6,
+    title: "Smart Investing: Tips for Building Wealth",
+    desc: "Guidance on making informed investment decisions to achieve financial goals.",
+    imgUrl: "https://images.unsplash.com/photo-1690149347325-13435f400dd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "July 28, 2023",
+    category: "Finance",
+  },
+  {
+    id: 7,
+    title: "High-Intensity Interval Training: Efficient Workouts",
+    desc: "Exploring the effectiveness of HIIT workouts for achieving fitness goals.",
+    imgUrl: "https://images.unsplash.com/photo-1682685797741-f0213d24418c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNzF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "April 11, 2023",
+    category: "Fitness",
+  },
+  {
+    id: 8,
+    title: "Trends to Watch: Fashion Forecast for the Season",
+    desc: "Previewing upcoming fashion trends and how to incorporate them.",
+    imgUrl: "https://images.unsplash.com/photo-1682686581218-82326951f4ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "August 19, 2023",
+    category: "Fashion",
+  },
+  {
+    id: 9,
+    title: "Effective Study Habits: Boost Your Learning",
+    desc: "Tips for developing study habits that enhance academic performance.",
+    imgUrl: "https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMTR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "June 7, 2023",
+    category: "Education",
+  },
+  {
+    id: 10,
+    title: "Nature's Wonders: Exploring Breathtaking Landscapes",
+    desc: "Journey through captivating natural landscapes around the world.",
+    imgUrl: "https://images.unsplash.com/photo-1691568769494-bd35c1e48917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMTd8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+    publishedDate: "September 27, 2023",
+    category: "Nature",
+  },
+];
